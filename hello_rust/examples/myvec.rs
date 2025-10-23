@@ -81,7 +81,7 @@
 
         // Retain method
         // This function makes closure and tells retain every car whose manufacturer is porsche.
-        car_list.retain(|e:&Car|{if e.manufacturer=="Porsche" {return true;} else {return false;}});
+        car_list.retain(|e:&Car|{if e.manufacturer=="Porsc he" {return true;} else {return false;}});
         println!("{:?}",car_list);
 
         // There is reserve method 
